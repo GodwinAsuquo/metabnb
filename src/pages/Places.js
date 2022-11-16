@@ -5,7 +5,7 @@ import { PlaceData } from "../PlaceData";
 
 const Places = () => {
   return (
-    <div className="px-3 lg:px-20 mt-10">
+    <div className="px-3 lg:px-20 mt-10 max-w-[1440px]">
       <section className="grid grid-cols-4 gap-y-3 lg:flex justify-between lg:items-center">
         <p>Resturant</p>
         <p>Cottage</p>
@@ -15,7 +15,7 @@ const Places = () => {
         <p>Carbins</p>
         <p>Off-grid</p>
         <p>Farm</p>
-        <button className="font-normal flex space-x-3 border border-[#B4B4B4] rounded-md px-3 py-1">
+        <button className="font-normal flex space-x-3 border border-[#B4B4B4] w-fit min-w-[130px] rounded-md px-3 py-1">
           <p>Location</p>
           <img src={filter} alt="" />
         </button>

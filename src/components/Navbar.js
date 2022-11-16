@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const { openSidebar, openModal } = useGlobalContext();
   return (
-    <section className="py-8 px-3 flex items-center justify-between lg:px-20">
+    <section className="py-8 px-3 flex items-center justify-between lg:px-20 max-w-[1440px] mx-auto">
       <Link to="/">
         <img className="w-40 lg:w-fit" src={Logo} alt="" />
       </Link>

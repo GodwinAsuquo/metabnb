@@ -7,7 +7,7 @@ import { HomePlaces, NFT } from "../components";
 
 const Home = () => {
   return (
-    <>
+    <div className="max-w-[1440px] mx-auto">
       <section className="px-4 mt-20 lg:flex lg:px-20 justify-between align-middle">
         <div className="lg:w-[40%] space-y-6 my-10">
           <h2 className="text-2xl md:text-4xl md:leading-[4rem]">
@@ -48,7 +48,7 @@ const Home = () => {
       </div>
       <HomePlaces />
       <NFT />
-    </>
+    </div>
   );
 };
 
