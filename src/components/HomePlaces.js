@@ -15,15 +15,15 @@ const HomePlaces = () => {
           return (
             <div
               key={id}
-              className="border border-[#D7D7D7] border-1 space-y-2 text-sm p-4 w-fit rounded-2xl "
+              className="border border-[#D7D7D7] border-1 space-y-2 text-xs p-4 w-fit rounded-2xl"
             >
               <img className="w-full" src={img} alt="" />
               <div className="flex justify-between">
-                <p className="font-light">Desert king</p>
-                <p>1MBT per night</p>
+                <p>Desert king</p>
+                <p className="font-bold">1MBT per night</p>
               </div>
-              <div className="flex justify-between font-light">
-                <p className="pr-3">2345km away</p>
+              <div className="flex justify-between">
+                <p className="pr-2">2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
               <img className="w-28" src={stars} alt="" />

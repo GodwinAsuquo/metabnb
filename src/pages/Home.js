@@ -41,10 +41,10 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="bg-[#A02279] flex px-4 py-1 mt-32 md:mt-52 md:px-20 justify-between">
-        <img className="w-[8rem] md:w-[10rem]" src={mbtoken} alt="" />
-        <img className="w-[8rem] md:w-[10rem]" src={metamask} alt="" />
-        <img className="w-[8rem] md:w-[10rem]" src={opensea} alt="" />
+      <div className="bg-[#A02279] flex px-4 py-2 mt-32 md:mt-52 md:px-20 justify-between">
+        <img className="w-[5rem] md:w-[10rem]" src={mbtoken} alt="" />
+        <img className="w-[5rem] md:w-[10rem]" src={metamask} alt="" />
+        <img className="w-[5rem] md:w-[10rem]" src={opensea} alt="" />
       </div>
       <HomePlaces />
       <NFT />

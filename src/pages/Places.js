@@ -26,7 +26,7 @@ const Places = () => {
           return (
             <div
               key={id}
-              className="border border-[#D7D7D7] border-1 space-y-2 text-sm p-4 w-fit rounded-2xl "
+              className="border border-[#D7D7D7] border-1 space-y-2 text-xs p-4 w-fit rounded-2xl "
             >
               <img className="w-full" src={img} alt="" />
               <div className="flex justify-between">

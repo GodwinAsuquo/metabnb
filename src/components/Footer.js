@@ -7,7 +7,7 @@ import instagram from "../assets/instagram.svg";
 const Footer = () => {
   return (
     <section className="bg-[#1D1D1E] text-white px-3 py-10 md:flex justify-between md:px-20">
-      <div className="flex md:flex-col justify-between">
+      <div className="flex md:flex-col justify-between w-40 lg:w-fit">
         <img src={whiteLogo} />
         <div className="hidden space-x-10 md:mt-8 md:flex">
           <img src={facebook} alt="" />

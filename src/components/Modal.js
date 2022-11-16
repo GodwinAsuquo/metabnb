@@ -16,7 +16,7 @@ const Modal = () => {
           : "fixed top-0 left-0 w-full h-full bg-black bg-opacity-25 grid content-center transition-all invisible -z-10"
       }`}
     >
-      <div className="relative left-[50%] translate-x-[-50%] w-[90vw] h-[40vh] bg-white rounded-lg max-w-[620px] ">
+      <div className="relative left-[50%] translate-x-[-50%] w-[90vw] h-[300px] bg-white rounded-lg max-w-[620px] ">
         <div className="flex justify-between px-7">
           <h4 className="font-bold text-2xl py-5">Connect Wallet</h4>
           <button onClick={closeModal}>

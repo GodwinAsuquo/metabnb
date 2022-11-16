@@ -7,10 +7,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const { openSidebar, openModal } = useGlobalContext();
   return (
-    <section className="py-8 px-3 flex align-middle justify-between lg:px-20">
-      <img src={Logo} alt="" />
+    <section className="py-8 px-3 flex items-center justify-between lg:px-20">
+      <Link to="/">
+        <img className="w-40 lg:w-fit" src={Logo} alt="" />
+      </Link>
       <button onClick={openSidebar} className="lg:hidden">
-        <AiOutlineMenu size={40} />
+        <AiOutlineMenu size={25} />
       </button>
       <div className="hidden lg:flex align-middle space-x-10 cursor-pointer">
         <Link to="/">
